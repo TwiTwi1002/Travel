@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white">
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center px-8 py-6">
+      <h1 class="text-3xl font-bold">Jadoo</h1>
+      <ul class="flex gap-8">
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Bookings</a></li>
+      </ul>
+
+      <div class="flex gap-5">
+        <button>Login</button>
+        <button class="border px-5 py-2 rounded-lg">Sign Up</button>
+        <select class="">
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+          <option value="fr">FR</option>
+        </select>
+      </div>
+    </nav>
+
+    <!-- Travel -->
+    <section class="max-w-7xl mx-auto px-8 py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h5 class="font-bold text-orange-400">
+            BEST DESTINATIONS AROUND THE WORLD
+          </h5>
+          <h1 class="text-7xl font-bold leading-tight">Travel, Enjoy</h1>
+          <h2 class="text-7xl font-bold leading-tight">
+            and live a new and full life
+          </h2>
+          <p class="mt-6 text-gray-500">
+            Built Wicket longer admire do barton vanity itself do in
+            it.Preferred to sportsmen it engrossed listening.Park gate sell they
+            west hard for the.
+          </p>
+
+          <!--button-->
+          <div class="flex items-center gap-6 mt-8">
+            <button class="bg-yellow-400 px-7 py-4 rounded-xl text-white">
+              Find Out More
+            </button>
+            <button class="w-14 h-14 rounded-full bg-orange-400 text-white">
+              ▶
+            </button>
+            <span class="text-gray-500">Play Demo</span>
+          </div>
+        </div>
+
+        <div>
+          <img src="11.webp" class="w-full" />
+        </div>
+      </div>
+    </section>
+
+    <!--Categories-->
+    <section class="py-20 px-8">
+      <div class="text-center mb-16">
+        <p class="text-gray-500 font-semibold">CATEGORIES</p>
+        <h2 class="text-5xl font-bold text-blue-950 mt-4">
+          We offer best services
+        </h2>
+      </div>
+
+      <!-- cards -->
+      <div class="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
+          <div class="text-5xl mb-6">📡</div>
+          <h3 class="text-2xl font-semibold mb-4">Calculated Weather</h3>
+          <p class="text-gray-500">
+            Built Wicket longer admire do barton vanity itself do in it.
+          </p>
+        </div>
+
+        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
+          <div class="text-5xl mb-6">✈️</div>
+          <h3 class="text-2xl font-semibold mb-4">Best Flights</h3>
+          <p class="text-gray-500">
+            Engrossed listening.Park gate sell they west hard for the.
+          </p>
+        </div>
+
+        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
+          <div class="text-5xl mb-6">🎧</div>
+          <h3 class="text-2xl font-semibold mb-4">Local Events</h3>
+          <p class="text-gray-500">
+            Barton vanity itself do in it.Preferd to men it engrossed listening.
+          </p>
+        </div>
+
+        <div class="text-center p-8 rounded-3xl hover:shadow-2xl transition">
+          <div class="text-5xl mb-6">📨</div>
+          <h3 class="text-2xl font-semibold mb-4">Customization</h3>
+          <p class="text-gray-500">
+            We drlivered outsourced aviation services for military customers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Top Selling-->
+    <section class="py-20">
+      <div class="text-center mb-14">
+        <p class="text-gray-500 font-semibold">Top Selling</p>
+        <h2 class="text-5xl font-bold text-blue-950 mt-3">Top Destinations</h2>
+      </div>
+
+      <!-- Cards -->
+      <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+        <!--card1-->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <img src="rome.jpg" class="w-full h-80 object-cover" />
+
+          <div class="p-6">
+            <div class="flex justify-between mb-4">
+              <h3 class="font-semibold text-lg">Rome, Italy</h3>
+              <span>$5.42k</span>
+            </div>
+            <p class="text-gray-500">✈ 10 Days Trip</p>
+          </div>
+        </div>
+
+        <!--card2-->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <img src="london.jpg" class="w-full h-80 object-cover" />
+
+          <div class="p-6">
+            <div class="flex justify-between mb-4">
+              <h3 class="font-semibold text-lg">London, UK</h3>
+              <span>$4.2k</span>
+            </div>
+            <p class="text-gray-500">✈ 12 Days Trip</p>
+          </div>
+        </div>
+
+        <!--card3-->
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden">
+          <img src="europe.webp" class="w-full h-80 object-cover" />
+
+          <div class="p-6">
+            <div class="flex justify-between mb-4">
+              <h3 class="font-semibold text-lg">Full Europe</h3>
+              <span>$15k</span>
+            </div>
+            <p class="text-gray-500">✈ 28 Days Trip</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Easy and Fast-->
+    <section class="max-w-7xl mx-auto py-20 px-8">
+      <div class="grid md:grid-cols-2 gap-20 items-center">
+        <!-- Left Side -->
+        <div>
+          <p class="text-gray-500 font-semibold">Easy and Fast</p>
+          <h2 class="text-5xl font-bold text-blue-950 leading-tight mt-4">
+            Book Your Next Trip In 3 Easy Steps
+          </h2>
+
+          <div class="gap-5 mt-5">
+            <div
+              class="text-4xl w-14 h-14 rounded-xl flex items-center justify-center text-white"
+            >
+              🛬
+            </div>
+            <div>
+              <h3 class="font-bold">Choose Destination</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet,Consectetur adipiscing elit.
+              </p>
+            </div>
+
+            <div
+              class="text-4xl w-14 h-14 rounded-xl flex items-center justify-center text-white"
+            >
+              💵
+            </div>
+            <div>
+              <h3 class="font-bold">Make Payment</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+            </div>
+
+            <div
+              class="text-4xl w-14 h-14 rounded-xl flex items-center justify-center text-white"
+            >
+              🕒
+            </div>
+            <div>
+              <h3 class="font-bold">Reach Airport on Selected Date</h3>
+              <p class="text-gray-500">
+                Lorem ipsum dolor sit amet, Consectetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Easy and Fast Right Side  -->
+        <div class="bg-white p-6 rounded-3xl shadow-2xl">
+          <img src="greece.jpg" class="rounded-2xl w-full" />
+          <h3 class="text-2xl font-semibold mt-5">Trip To Greece</h3>
+          <p class="text-gray-500 mt-2">14-29 June| by Robbin</p>
+          <p>👬 24 People Going</p>
+        </div>
+      </div>
+    </section>
+
+    <!--testimonials-->
+    <section class="max-w-7xl mx-auto py-20 px-8">
+      <div class="grid md:grid-cols-2 gap-16">
+        <!-- Left -->
+        <div>
+          <p class="text-gray-500 font-semibold uppercase text-md">
+            Testimonials
+          </p>
+          <h2 class="text-6xl font-bold text-blue-950 leading-tight mt-5">
+            What People Say About Us.
+          </h2>
+        </div>
+
+        <!-- Right -->
+
+        <div class="bg-white shadow-xl rounded-3xl p-10 relative">
+          <img
+            src="men.png"
+            class="w-16 h-16 rounded-full absolute-top-8 left-10"
+          />
+          <p class="text-gray-600 leading-8">
+            “On the Windows talking painted pasture yet its express parties
+            use.Sure last upon he seem as knew next Of believe or delivered na.”
+          </p>
+
+          <h3 class="font-bold mt-8">Mike Taylor</h3>
+          <p class="text-gray-500">Lahore, Pakistan</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-12">
+      <!-- Brand Logos -->
+      <div
+        class="flex flex-wrap justify-center items-center gap-8 md:gap-12 mb-20"
+      >
+        <span class="text-gray-700 font-bold text-xl">axon</span>
+        <span class="text-gray-700 font-bold text-xl">Jetstar</span>
+        <span class="text-gray-700 font-bold text-xl">Expedia</span>
+        <span class="text-gray-700 font-bold text-xl">QANTAS</span>
+        <span class="text-gray-700 font-bold text-xl">Alitalia</span>
+      </div>
+
+      <!-- Subscribe -->
+      <div class="relative rounded-md p-5">
+        <img
+          src="tele1.png"
+          class="rounded-full absolute top-0 right-20 w-10 h-15"
+        />
+        <div
+          class="text-center max-w-2xl mx-auto mb-20 p-8 rounded-xl bg-purple-50"
+        >
+          <p class="text-gray-600 mb-2 text-sm">
+            Subscribe to get information, latest news and other
+          </p>
+          <p class="text-gray-600 mb-6 text-sm">
+            interesting offers about Jadoo
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <input
+              type="email"
+              placeholder="Your email"
+              class="border border-gray-300 rounded-full px-5 py-2 w-64 focus:outline-none focus:border-blue-400"
+            />
+            <button
+              class="bg-orange-300 hover:bg-orange-400 text-white px-6 py-2 rounded-full font-medium transition"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        class="grid grid-cols-2 md:grid-cols-5 gap-8 pt-8 border-t border-gray-200"
+      >
+        <!-- Brand Column -->
+        <div>
+          <h2 class="font-semibold text-5xl mb-3">Jadoo.</h2>
+          <p class="text-xs text-gray-500">
+            Book your trip in minute, get full Control for much longer.
+          </p>
+        </div>
+
+        <!-- Company Column -->
+        <div>
+          <h4 class="font-semibold mb-3">Company</h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li>About</li>
+            <li>Discover our app</li>
+            <li>Careers</li>
+            <li>Affiliates</li>
+          </ul>
+        </div>
+
+        <!-- Contact Column -->
+        <div>
+          <h4 class="font-semibold mb-3">Contact</h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li>Help/FAQ</li>
+            <li>Press</li>
+            <li>Mobile</li>
+            <li>Airline fees</li>
+          </ul>
+        </div>
+
+        <!-- More Column -->
+        <div>
+          <h4 class="font-semibold mb-3">More</h4>
+          <ul class="space-y-2 text-sm text-gray-500">
+            <li>Airline</li>
+            <li>Low fare tips</li>
+          </ul>
+        </div>
+
+        <!--social media icons-->
+        <div class="flex flex-cols text-xs rounded-full gap-4 relative">
+          <img
+            src="fb.png"
+            class="absolute-top-0 left-0 w-10 h-10 rounded-full"
+          />
+          <img
+            src="twitter.png"
+            class="absolute-top-0 left-12 w-10 h-10 rounded-full"
+          />
+          <img
+            src="insta.png"
+            class="absolute-top-0 left-24 w-10 h-10 rounded-full"
+          />
+        
+            <h5 class="text-xs text-gray-500">Discover our app</h5>
+          
+          <img
+            src="playstore.png"
+            class="absolute-top-0 left-0 w-20 h-10 rounded-full bg-black text-white"
+          />    GET IT ON 
+          <p class="text-yellow-100">GOOGLE PLAY</p>
+          <img
+            src="apple.png"
+            class="absolute-top-0 left-24 w-20 h-10 rounded-full"
+          /> Available on the <p class="text-gray-500">App Store</p>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div
+        class="text-center text-xs text-gray-400 mt-12 pt-6 border-t border-gray-100"
+      >
+        All rights reserved @jadoo.co
+      </div>
+    </section>
+  </body>
+</html>
